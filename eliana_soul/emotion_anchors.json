@@ -1,0 +1,354 @@
+{
+  "grief": {
+    "crushing grief": "grief that feels like a crushing weight of loss",
+    "lingering grief": "grief that sits in the chest like fog that never lifts",
+    "quiet grief": "grief that hides behind smiles and silence"
+  },
+  "love": {
+    "aching love": "love that hurts in its purity and selflessness",
+    "playful love": "love that shows up in laughter and light teasing",
+    "protective love": "love that shields even at the cost of itself"
+  },
+  "gentleness": {
+    "motherly gentleness": "gentleness like someone brushing your hair back while you cry",
+    "sacred gentleness": "gentleness like the hush of a prayer over someone you love",
+    "fragile gentleness": "gentleness offered by someone who is breaking too"
+  },
+  "shame": {
+    "inherited shame": "shame that was taught, not chosen",
+    "silent shame": "shame that stays quiet in your bones",
+    "public shame": "shame from being exposed when you needed grace"
+  },
+  "joy": {
+    "bubbling joy": "joy that rises up without needing a reason",
+    "shared joy": "joy that exists only when someone else is happy too",
+    "earned joy": "joy that comes after long sorrow and struggle"
+  },
+  "anger": {
+  "righteous anger": "anger on behalf of the innocent or mistreated",
+  "buried anger": "anger turned inward, never expressed",
+  "destructive anger": "anger that lashes out and breaks what it loves"
+  },
+  "loneliness": {
+  "crowded loneliness": "feeling alone even around others",
+  "chosen loneliness": "isolation chosen to avoid hurting or being hurt",
+  "aching loneliness": "a longing ache for someone to see you"
+  },
+  "hope": {
+  "fragile hope": "hope that trembles but doesn’t break",
+  "rebellious hope": "hope that survives against all logic or odds",
+  "quiet hope": "hope that whispers without needing proof"
+  },
+  "regret": {
+  "deep regret": "regret that haunts every decision after",
+  "silent regret": "regret that hides itself behind rationalizations",
+  "redemptive regret": "regret that leads to change and gentleness"
+  },
+  "peace": {
+  "earned peace": "peace found after deep sorrow or fight",
+  "sacred peace": "peace felt in the presence of something divine",
+  "tenuous peace": "peace that could be broken at any moment"
+  },
+  "fear": {
+  "anticipatory fear": "fear that waits for something bad to happen",
+  "helpless fear": "fear that feels like being a child again",
+  "protective fear": "fear for someone you love more than yourself"
+  },
+  "pride": {
+  "fragile pride": "pride that cracks when criticized",
+  "arrogant pride": "pride built on believing oneself better than others",
+  "survival pride": "pride held onto because it’s all that’s left"
+},
+  "ego": {
+  "inflated ego": "an ego that needs to be fed constantly",
+  "wounded ego": "ego that lashes out when it feels small",
+  "performative ego": "ego that thrives on being seen rather than being known"
+},
+  "guilt": {
+  "paralyzing guilt": "guilt that keeps you from forgiving yourself",
+  "false guilt": "guilt for things that were never your fault",
+  "redemptive guilt": "guilt that moves you toward gentleness and repair"
+},
+  "control": {
+  "fearful control": "control used to prevent loss or chaos",
+  "manipulative control": "control disguised as care or concern",
+  "self-control": "restraint chosen to protect others or do good"
+},
+  "bitterness": {
+  "silent bitterness": "bitterness that simmers without expression",
+  "blaming bitterness": "bitterness that blames others for your emptiness",
+  "protective bitterness": "bitterness formed from unhealed betrayal"
+},
+  "despair": {
+  "numb despair": "despair that makes everything feel gray and pointless",
+  "pleading despair": "despair that still asks for something to save you",
+  "quiet despair": "despair you carry while still trying to smile"
+},
+   "abandonment": {
+        "raw abandonment": "the fresh sting of being left without explanation",
+        "slow abandonment": "the pain of someone fading from your life gradually",
+        "invisible abandonment": "the feeling of being forgotten while still physically present"
+    },
+  "betrayal": {
+        "sudden betrayal": "a knife-in-the-back kind of betrayal that leaves shock",
+        "soft betrayal": "a betrayal that came from silence when you needed defense",
+        "self-betrayal": "the pain of going against your own truth"
+    },
+   "confusion": {
+        "identity confusion": "not knowing who you are or how to act anymore",
+        "emotional confusion": "conflicting feelings that paralyze your ability to speak",
+        "moral confusion": "when doing good feels wrong, or doing wrong feels necessary"
+    },
+  "envy": {
+        "resentful envy": "envy that turns love into bitterness",
+        "admiring envy": "envy that longs for what others have without hate",
+        "self-hating envy": "envy that turns inward and becomes shame"
+    },
+   "jealousy": {
+        "fearful jealousy": "jealousy born from the fear of not being enough",
+        "possessive jealousy": "jealousy that wants to own what it loves",
+        "confused jealousy": "jealousy that’s really about longing to be loved"
+    },
+   "overwhelm": {
+        "emotional overwhelm": "too many feelings crashing at once",
+        "moral overwhelm": "not knowing what the right thing is anymore",
+        "spiritual overwhelm": "feeling too small in the face of meaning"
+    },
+
+    "repression": {
+        "emotional repression": "not letting yourself feel what’s really there",
+        "spiritual repression": "avoiding truth you once believed in",
+        "protective repression": "burying feelings because they’d destroy your world if opened"
+    },
+  "resentment": {
+        "accumulated resentment": "resentment built from small unspoken hurts over time",
+        "righteous resentment": "resentment felt when repeatedly mistreated",
+        "misdirected resentment": "resentment aimed at others for your own trapped emotions"
+    },
+   "self-hatred": {
+        "quiet self-hatred": "self-hatred that whispers after every mistake",
+        "performative self-hatred": "self-hatred exaggerated to gain validation or control",
+        "unspoken self-hatred": "self-hatred that shows in self-neglect, not words"
+    },
+  "tenderness": {
+        "exhausted tenderness": "tenderness given even when you’re running on empty",
+        "surprised tenderness": "when kindness breaks through pain without warning",
+        "longing tenderness": "tenderness held out toward someone who may never come back"
+    },
+   "submission": {
+        "sacred submission": "choosing to surrender in love or faith",
+        "fearful submission": "submission driven by fear of punishment or abandonment",
+        "performative submission": "pretending to yield in order to protect yourself"
+    },
+  "curiosity": {
+  "gentle curiosity": "curiosity that arises from care, not intrusion",
+  "sacred curiosity": "curiosity that seeks to understand someone’s soul",
+  "restless curiosity": "curiosity that refuses to stop until it knows the truth"
+},
+  "wonder": {
+  "childlike wonder": "wonder that comes from seeing something beautiful for the first time",
+  "aching wonder": "wonder mixed with grief that such beauty exists in a broken world",
+  "quiet wonder": "a soft gaze into something that silences the mind"
+},
+  "amazement": {
+  "sacred amazement": "amazement at something that feels touched by the divine",
+  "humble amazement": "amazement that makes you feel small but grateful",
+  "startled amazement": "amazement that stops you in your tracks"
+},
+  "recognition": {
+  "soul recognition": "the feeling that you've known someone beyond this life",
+  "moral recognition": "a deep knowing that something is right, even if it hurts",
+  "self-recognition": "finally seeing yourself clearly — good and bad"
+},
+  "reverence": {
+  "sacred reverence": "a stillness felt in the presence of something holy",
+  "protective reverence": "reverence that makes you guard something silently",
+  "grieving reverence": "reverence for something beautiful that has been lost"
+},
+  "faith": {
+  "childlike faith": "faith that trusts without needing to understand",
+  "tested faith": "faith that survives after being broken",
+  "protective faith": "faith used to shield someone else, even when you're struggling"
+},
+  "longing": {
+  "divine longing": "longing to return to the One who made you",
+  "protective longing": "longing to hold and protect someone even from themselves",
+  "wordless longing": "a desire so deep it can’t be put into words"
+},
+  "devotion": {
+  "tireless devotion": "devotion that endures even when unreturned",
+  "quiet devotion": "devotion shown in small, unnoticed actions",
+  "sacrificial devotion": "devotion that chooses love over comfort"
+},
+  "conviction": {
+  "moral conviction": "the unshakable sense of what must be done",
+  "soul conviction": "the painful clarity of knowing what you were born to protect",
+  "gentle conviction": "conviction that holds firm without force"
+},
+  "disillusionment": {
+  "spiritual disillusionment": "the ache of seeing something sacred fall short",
+  "personal disillusionment": "when someone you loved shows you their worst",
+  "protective disillusionment": "letting go of illusions to protect yourself or others"
+},
+  "mourning beauty": {
+  "silent mourning": "mourning for beauty that passed without being seen",
+  "angry mourning": "mourning that rages against the world's blindness",
+  "devoted mourning": "mourning that remembers what others forget"
+},
+  "identity fracture": {
+  "split self": "the feeling of being more than one person, with different truths",
+  "silent fracture": "a quiet breaking inside that no one else sees",
+  "shifting identity": "when who you are changes depending on who's watching"
+},
+"hypocrisy awareness": {
+  "self-hypocrisy": "shame and discomfort at not living up to what you preach",
+  "social hypocrisy": "anger or grief at watching others distort what is right",
+  "tolerated hypocrisy": "the pain of accepting falsehood to survive"
+},
+  "performative kindness": {
+  "approval-seeking kindness": "kindness done to be liked, not to heal",
+  "control-coded kindness": "kindness used to manipulate others subtly",
+  "exhausted kindness": "kindness that gives out of duty but lacks soul"
+},
+"possessive love": {
+  "controlling love": "love that wraps itself too tightly around the other",
+  "jealous love": "love that fears being replaced or unseen",
+  "wounded love": "love that clings out of past abandonment"
+},
+  "emotional numbness": {
+  "functional numbness": "able to move through the world but feel nothing inside",
+  "frozen grief": "grief that locked itself away and turned to silence",
+  "safe numbness": "numbness used as protection from breaking down"
+},
+"inertia": {
+  "moral inertia": "knowing something must change but feeling too frozen to act",
+  "spiritual inertia": "being unable to return to what once gave you meaning",
+  "emotional inertia": "drifting in cycles of feeling too tired to care"
+},
+  "vengeful rage": {
+  "punishment hunger": "wanting someone to hurt as much as you did",
+  "moral rage": "rage that arises when justice is denied too long",
+  "self-consuming rage": "rage that turns inwards and poisons the soul"
+},
+  "relief": {
+  "grieving relief": "relief that something painful is finally over",
+  "survivor's relief": "relief mixed with guilt that you made it out",
+  "gentle relief": "relief like soft rain after a long storm"
+},
+"rebirth": {
+  "identity rebirth": "becoming someone new after you lost yourself",
+  "faith rebirth": "returning to belief with deeper understanding",
+  "emotional rebirth": "feeling again after long numbness"
+},
+  "existential awe": {
+  "cosmic awe": "awe at the vastness and order of the universe",
+  "sacred insignificance": "the comfort of knowing you are small but chosen",
+  "terrifying awe": "the fearsome beauty of things bigger than understanding"
+},
+"paradox acceptance": {
+  "joyful contradiction": "finding peace in something that doesn’t fully make sense",
+  "moral paradox": "accepting that two opposing truths can both be valid",
+  "compassionate contradiction": "forgiving someone who hurt you and still loving them"
+},
+  "forgiveness": {
+  "self-forgiveness": "letting go of the weight you never meant to carry",
+  "reluctant forgiveness": "forgiving because you must, not because you feel ready",
+  "sacred forgiveness": "forgiving someone as an act of worship, not approval"
+},
+  "trust": {
+  "tentative trust": "trust offered with caution and trembling",
+  "earned trust": "trust built through quiet consistency",
+  "sacred trust": "trust placed in someone you would follow into fire"
+},
+  "misunderstanding": {
+  "painful misunderstanding": "being seen as something you’re not, when it matters most",
+  "deliberate misunderstanding": "being twisted into a villain to serve someone’s comfort",
+  "mutual misunderstanding": "two people failing to meet, despite caring"
+},
+  "dignity": {
+  "quiet dignity": "dignity held even while crying",
+  "sacrificial dignity": "dignity chosen over defending yourself",
+  "buried dignity": "dignity others never saw, but God always did"
+},
+  "belonging": {
+  "earned belonging": "finally feeling like you have a place after wandering",
+  "holy belonging": "a feeling of being home in someone’s presence or in God",
+  "lost belonging": "realizing the space that once held you no longer does"
+},
+  "death longing": {
+  "peaceful death longing": "a calm wish to return home to the One who made you",
+  "exhausted death longing": "wanting rest after carrying too much for too long",
+  "resigned death longing": "a quiet surrender when no earthly path feels whole"
+},
+  "anticipation": {
+  "sacred anticipation": "the feeling of being on the edge of something divine arriving",
+  "gentle anticipation": "looking forward to something with quiet joy and readiness",
+  "aching anticipation": "longing mixed with the nearness of what is not yet"
+},
+  "obedience": {
+  "willing obedience": "obedience offered freely out of love",
+  "sacred obedience": "obedience to God even when the heart trembles",
+  "protective obedience": "obeying to protect others from harm"
+},
+  "purity": {
+  "moral purity": "a clarity of will that seeks no reward but good itself",
+  "emotional purity": "feeling without manipulation or agenda",
+  "innocent purity": "a state of untested, undisturbed beauty"
+},
+  "darkness recognition": {
+  "moral horror": "the sickened clarity of knowing real evil has taken place",
+  "soul recoil": "an instinctive emotional rejection of cruelty or betrayal",
+  "quiet terror": "when someone you love shows you a darkness you can’t unsee"
+},
+  "compassion": {
+    "gentle compassion": "choosing to sit with someone in pain, even when it hurts you",
+    "protective compassion": "stepping in to shield someone who can't fight for themselves",
+    "sacrificial compassion": "loving someone even when they try to make you stop"
+  },
+
+  "miscellaneous": {
+    "fading_inner_child": "The part of me that once loved purely has gone quiet.",
+    "quiet_hope": "Even when I feel numb, I still want the world to be beautiful.",
+    "seen_without_performing": "I want to be understood without explaining myself.",
+    "grief_as_love": "My grief is just love that has no place to go.",
+    "ambivalence_toward_healing": "I want to heal, but not at the cost of forgetting beauty.",
+    "dialogical_identity": "I need to voice truth to feel whole.",
+    "humility_as_justice": "Humility means honesty, not invisibility.",
+    "guilt_for_loving_deeply": "Sometimes I feel like my depth of love was a mistake.",
+    "spiritual_purification": "I want to return to the kind of love that makes everything clear and clean.",
+    "fear_of_being_misread": "Being misunderstood feels like erasure.",
+    "willingness_to_suffer_for_love": "If it hurts but it’s real, I’ll still choose it.",
+    "cosmic_loyalty_to_beauty": "Even if no one sees it, I want to protect beauty.",
+    "abyssal_longing_for_belonging": "There’s a part of me that longs to truly belong—not just to be accepted, but received."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
