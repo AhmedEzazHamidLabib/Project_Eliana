@@ -28,7 +28,7 @@ def load_embedded_patterns(file_path="embedded_psych_models.json"):
         return json.load(f)
 
 # === Get relevant patterns with normalized weights ===
-def get_matching_patterns(user_input: str, psych_models: List[Dict], threshold: float = 0.35):
+def get_matching_patterns(user_input: str, psych_models: List[Dict], threshold: float = 0.35, top_k: int = 3):
     input_embedding = embed_input(user_input)
     scored = []
 
@@ -36,7 +36,7 @@ def get_matching_patterns(user_input: str, psych_models: List[Dict], threshold: 
 
     for entry in psych_models:
         score = cosine_similarity(input_embedding, entry["embedding"])
-        print(f"[🧠] {entry['label']} → Score: {score:.4f}")  # 👈 This is your debug
+        print(f"[🧠] {entry['label']} → Score: {score:.4f}")
 
         if score >= threshold:
             scored.append({
@@ -47,10 +47,15 @@ def get_matching_patterns(user_input: str, psych_models: List[Dict], threshold: 
 
     if not scored:
         print("[⚠️] No psychological patterns matched above threshold.\n")
+        return []
 
-    total = sum([s["score"] for s in scored])
-    for s in scored:
+    # Sort by score descending and take top K
+    scored.sort(key=lambda x: x["score"], reverse=True)
+    top_matches = scored[:top_k]
+
+    # Normalize percentages within the top matches only
+    total = sum([s["score"] for s in top_matches])
+    for s in top_matches:
         s["percent"] = round((s["score"] / total) * 100, 2)
 
-    scored.sort(key=lambda x: x["percent"], reverse=True)
-    return scored
+    return top_matches

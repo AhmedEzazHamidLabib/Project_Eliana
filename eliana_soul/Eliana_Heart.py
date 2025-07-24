@@ -61,6 +61,35 @@ def find_top_resonances(user_input, embeddings_dict, top_n=5):
     scored.sort(key=lambda x: x[1], reverse=True)
     return scored[:top_n]
 
+def get_emotion_context_from_input(user_input: str, major_emotions_embed_path="embedded_eliana_major_emotions.json"):
+    """
+    Returns structured metadata for the first emotion (if any) that resonates with the input.
+    Fields returned:
+        - name
+        - eliana_emotion
+        - eliana_trait
+        - associated_memory
+    """
+    with open(major_emotions_embed_path, "r", encoding="utf-8") as f:
+        major_emotions = json.load(f)
+
+    input_vec = embed_text(user_input)
+
+    for entry in major_emotions:
+        vector = entry["embedding"]
+        similarity = cosine_similarity(input_vec, vector)
+
+        if similarity >= 0.5:
+            meta = entry.get("metadata", {})
+            return {
+                "name": entry.get("label", "unknown"),
+                "eliana_emotion": meta.get("eliana_emotion", "[No eliana_emotion]"),
+                "eliana_trait": meta.get("eliana_trait", "[No eliana_trait]"),
+                "associated_memory": meta.get("associated_memory", "[No associated_memory]")
+            }
+
+    return None
+
 import json
 
 def gpt_emotional_fallback(user_input, flat_tokens, session_memory, max_context=3):

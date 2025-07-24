@@ -22,6 +22,7 @@ class SessionMemory:
         self.last_eliana_reply: Optional[str] = ""
 
         self.psychological_patterns: List[Dict] = []
+        self.session_summary = []
 
 
 
