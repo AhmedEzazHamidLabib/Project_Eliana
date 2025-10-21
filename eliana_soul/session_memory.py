@@ -27,6 +27,9 @@ class SessionMemory:
 
 
 
+
+
+
         # Resonance memory
         self.core_value_resonance: List[Dict[str, float]] = []
         self.core_fragment_resonance: List[Dict[str, float]] = []
@@ -39,8 +42,10 @@ class SessionMemory:
         self.session_end_time: Optional[str] = None
 
         self.personality_trace: List[Dict] = []
-
-
+        self.eliana_mood_state: tuple[float, str] = (
+            0.70,
+            "I feel happy — calm, comfortable, connected."
+        )
 
     def store_important_fact(self, text: str):
         self.important_facts.append({"fact": text, "timestamp": time.time()})
