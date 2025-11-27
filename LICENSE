@@ -1,0 +1,57 @@
+ELIANA EXECUTION-ONLY PROPRIETARY LICENSE v1.1
+Copyright (c) 2025 Ahmed Ezaz Hamid Labib.
+All rights reserved. Tiferet Labs retains full intellectual property ownership.
+
+1. Purpose
+This software (“Eliana”) is provided solely for personal evaluation, academic admissions review, and portfolio demonstration.  
+It is not open-source, and no rights are granted except those explicitly stated in this license.  
+The intent of this repository is to demonstrate system architecture, design, and engineering capability—not to provide a functional, reproducible, or deployable software product.
+
+2. Permitted Use
+You are granted a limited, non-exclusive, non-transferable, revocable permission to:
+
+a) download the source code solely for private inspection;  
+b) view and inspect the source code in its unmodified form;  
+c) execute the code exactly as provided, without modification, on your own local machine.
+
+These permissions exist only for academic review, personal evaluation, or understanding the author’s work.  
+No other rights are granted.
+
+This repository does not include any datasets, memory files, embeddings, model weights, or proprietary components necessary for full functionality.  
+Any placeholder or template files are non-functional and serve only to illustrate structure.  
+The intentional absence of these materials prevents reproduction, deployment, reverse engineering, or derivative use of the system.
+
+Execution rights do not extend to hosting, serving, deploying, reproducing, or reconstructing any functionality beyond what is explicitly provided in this repository.
+
+3. Prohibited Actions
+You are strictly prohibited from:
+
+a) using the software for any commercial, institutional, organizational, or production purpose;  
+b) modifying, adapting, translating, patching, or creating derivative works from the software;  
+c) distributing, publishing, uploading, sublicensing, or sharing the software or any part of it;  
+d) reverse engineering, decompiling, analyzing internal logic, or attempting to reconstruct missing datasets, embeddings, or model weights;  
+e) using any component of this codebase to train, fine-tune, evaluate, or develop any machine learning or AI system;  
+f) incorporating any part of this code into machine learning training datasets or code repositories;  
+g) hosting, deploying, or executing the software on any server, cloud platform, remote machine, or shared environment;  
+h) using the software to build or assist in building competing systems.
+
+4. Confidentiality
+You may not disclose, summarize, publish, or otherwise reveal the implementation details, system prompts, memory structures, or architectural patterns of Eliana without written permission from Ahmed Ezaz Hamid Labib or Tiferet Labs.
+
+5. Ownership
+All rights, title, and interest in Eliana—including but not limited to the codebase, architecture, structure, concepts, memory system designs, and all derivative intellectual property—remain the exclusive property of Ahmed Ezaz Hamid Labib and Tiferet Labs.  
+No transfer of ownership is made or implied by this license.
+
+6. Termination
+This license may be revoked at any time, with or without cause.  
+Upon revocation, you must immediately delete all copies of the software in your possession, including local, cached, or archived versions.
+
+7. No Warranty
+The software is provided “as is,” without any warranty of any kind, express or implied.  
+All risks arising from its use remain solely with the user.  
+The author and Tiferet Labs assume no liability for damages arising from use, misuse, or inability to use the software.
+
+8. Governing Law
+This license shall be governed by and interpreted under the laws of the United States.  
+Any disputes arising from this license or the use of the software shall be resolved exclusively under this jurisdiction.
+
