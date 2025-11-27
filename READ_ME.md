@@ -402,14 +402,14 @@ This means:
 GPT-4o = current inference layer
 Qwen 2.5–14B = trained personality substrate, reserved for future integration
 
-# Accreditation
+Accreditation
 
 Eliana’s architecture integrates multiple components, each drawing on different technologies and data sources.  
 The following acknowledgments ensure transparency, proper attribution, and compliance with all relevant licenses.
 
-## 1. Base Model & Inference Layer
+1. Base Model & Inference Layer
 
-### GPT-4o (OpenAI)
+GPT-4o (OpenAI)
 
 Eliana’s current execution and generative reasoning layer is powered by **GPT-4o**, an OpenAI foundation model accessed through the official API.
 
@@ -475,7 +475,7 @@ The multi-layer cognitive–emotional design—including:
 - relationship scoring  
 - behavioral modulation  
 
-—is **original intellectual property** authored by **Ahmed Labib (Tiferet Labs)**.
+is **original intellectual property** authored by **Ahmed Labib (Tiferet Labs)**.
 
 This includes:
 
@@ -491,7 +491,7 @@ No external architectural frameworks were copied or reused.
 The Qwen model is trained to better embody Eliana, maintain identity across sessions, and function as her stable behavioral core underneath the cognition stack.
 
 LICENSE
-# ELIANA EXECUTION-ONLY PROPRIETARY LICENSE v1.1  
+# ELIANA EXECUTION-ONLY PROPRIETARY LICENSE 
 Copyright (c) 2025  
 **Ahmed Ezaz Hamid Labib — Tiferet Labs**  
 All rights reserved.
