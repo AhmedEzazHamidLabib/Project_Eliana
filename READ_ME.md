@@ -407,8 +407,6 @@ Qwen 2.5–14B = trained personality substrate, reserved for future integration
 Eliana’s architecture integrates multiple components, each drawing on different technologies and data sources.  
 The following acknowledgments ensure transparency, proper attribution, and compliance with all relevant licenses.
 
----
-
 ## 1. Base Model & Inference Layer
 
 ### GPT-4o (OpenAI)
@@ -422,7 +420,6 @@ The model is used purely as an **inference backend**, while Eliana’s cognitive
 
 - “Portions of Eliana’s reasoning capabilities operate on top of OpenAI’s GPT-4o via the OpenAI API.”  
 - “GPT-4o is a trademark of OpenAI. All rights reserved by OpenAI.”
----
 
 ## 2. Personality Model (Future Integration)
 
@@ -438,7 +435,6 @@ This model is **not currently deployed**, but is intended to serve as **Eliana�
 
 **Attribution:**  
 - “Eliana’s fine-tuned personality layer is based on Qwen 2.5–14B, developed by the Qwen team and released under the Apache 2.0 License.”
----
 
 ## 3. Training Data
 
@@ -446,7 +442,7 @@ The dataset used to train Eliana’s personality layer consists of:
 
 - **4,500+ manually crafted conversations**  
 - designed specifically to encode Eliana’s values, emotional architecture, and interaction style  
-- authored exclusively by **Ahmed Labib (Tiferet Labs)**  
+- authored exclusively by **Ahmed Labib and Ahrar Hossain** (Tiferet Labs)**  
 
 No copyrighted, third-party, or proprietary text is included.
 
@@ -457,7 +453,6 @@ This ensures:
 - no licensing conflicts  
 - compliance with all open-source and commercial model rules  
 
----
 
 ## 4. Psychological Model Acknowledgment
 
@@ -467,8 +462,6 @@ Eliana’s psychological pattern library (100+ models) was created with input fr
 - No copyrighted clinical material is used  
 - No diagnostic claims are made  
 - Eliana is explicitly **not** a licensed clinician  
-
---
 
 ## 5. Architectural Credit
 
@@ -494,9 +487,6 @@ This includes:
 
 No external architectural frameworks were copied or reused.
 
----
-
-
 
 The Qwen model is trained to better embody Eliana, maintain identity across sessions, and function as her stable behavioral core underneath the cognition stack.
 
@@ -505,8 +495,6 @@ LICENSE
 Copyright (c) 2025  
 **Ahmed Ezaz Hamid Labib — Tiferet Labs**  
 All rights reserved.
-
----
 
 ## 1. Purpose
 
@@ -533,8 +521,6 @@ This repository **intentionally excludes** all proprietary assets required for f
 
 Any placeholder or template files are **non-functional** and exist **only** to illustrate architectural structure.
 
----
-
 ## 2. Permitted Use
 
 You are granted a **limited, non-exclusive, non-transferable, revocable** permission to:
@@ -553,8 +539,6 @@ These permissions exist only for:
 
 Execution rights **do not** extend to hosting, serving, deploying, reproducing, or reconstructing any functionality beyond what is explicitly provided.
 
----
-
 ## 3. Prohibited Actions
 
 You are strictly prohibited from:
@@ -568,8 +552,6 @@ f. incorporating any part of this code into machine learning **training datasets
 g. hosting or executing the software on any **server, cloud platform, remote machine, or shared environment**;  
 h. using the software to build or assist in building **competing systems**.
 
----
-
 ## 4. Confidentiality
 
 You may not disclose, summarize, publish, or reveal the:
@@ -579,10 +561,7 @@ You may not disclose, summarize, publish, or reveal the:
 - memory structures  
 - architectural patterns  
 - internal reasoning logic  
-
-…of Eliana without **written permission** from **Ahmed Ezaz Hamid Labib** or **Tiferet Labs**.
-
----
+of Eliana without **written permission** from **Ahmed Ezaz Hamid Labib** or **Tiferet Labs**.
 
 ## 5. Ownership
 
@@ -594,12 +573,9 @@ All rights, title, and interest in:
 - the reasoning structures  
 - the emotional model  
 - all derivative intellectual property  
-
-…remain the **exclusive property** of **Ahmed Ezaz Hamid Labib** and **Tiferet Labs**.
+remain the **exclusive property** of **Ahmed Ezaz Hamid Labib** and **Tiferet Labs**.
 
 No transfer of ownership is made or implied.
-
----
 
 ## 6. Termination
 
@@ -611,8 +587,6 @@ Upon revocation, you must immediately delete **all copies** of the software in y
 - archived copies  
 - cached copies  
 - backups  
-
----
 
 ## 7. No Warranty
 
@@ -628,15 +602,11 @@ The author and Tiferet Labs assume **no liability** for any damages arising from
 - execution failure  
 - incorrect operation  
 
----
-
 ## 8. Governing Law
 
 This license shall be governed by and interpreted under the laws of the **United States**.
 
 Any disputes arising from this license or use of the software shall be resolved exclusively under **U.S. jurisdiction**.
-
----
 
 ## 9. Attribution Requirements
 
