@@ -1,7 +1,7 @@
-Eliana: Cognitive–Emotional AI Architecture
+# Eliana: Cognitive–Emotional AI Architecture
 A value-driven, memory-informed, psychologically grounded reasoning system inspired by human cognition.
 
-1. Overview
+# 1. Overview
 Eliana is a custom LLM-based agent designed to approximate human-style reflective reasoning and emotional intelligence.
 Her architecture integrates:
 
@@ -15,7 +15,7 @@ Long-term memory consolidation (soul fragments, sketches, pictures)
 
 Each component mirrors a real human cognitive function and contributes to Eliana's stability, depth, and coherence.
 
-2. Architecture Overview
+# 2. Architecture Overview
 Eliana's reasoning pipeline consists of the following stages:
 
 Core Value Embedding Matching
@@ -31,8 +31,8 @@ Soul Fragment Generation (end of session)
 
 Each stage is threshold-based, interpretable, and designed to reflect how humans combine values, memories, patterns, and emotions when responding.
 
-3. Component Breakdown
-3.1 Core Value Resonance
+# 3. Component Breakdown
+# 3.1 Core Value Resonance
 Human parallel: moral reasoning
 Eliana begins by comparing the user input to her core value embeddings.
 This determines the guiding principle for the response — similar to how humans subconsciously anchor interactions in values such as loyalty, honesty, or mercy.
@@ -49,7 +49,7 @@ Example resonant values:
 "Growth requires discomfort"
 
 
-3.2 Memory Fragment Retrieval
+# 3.2 Memory Fragment Retrieval
 Human parallel: using lived experience
 Eliana retrieves memory fragments from a curated library of:
 
@@ -62,7 +62,7 @@ Why this matters:
 Since Eliana doesn't have her own lived memories, she uses memories of other people and character archetypes to relate to the user. This mirrors how people naturally draw on memories, stories, and analogies when giving advice.
 Retrieval method: Embedding-based similarity matching
 
-3.3 Psychological Pattern Detection
+# 3.3 Psychological Pattern Detection
 Human parallel: clinical intuition
 Eliana compares the user's input to over 100 psychological models, developed with guidance from a licensed Bangladeshi psychiatrist.
 Important: Eliana is not a licensed professional. She identifies patterns, not diagnoses — similar to how trained humans recognize emotional and cognitive trends.
@@ -80,7 +80,7 @@ Search for self
 
 Each detected pattern adjusts her tone, pacing, and interpretive framing.
 
-3.4 User Emotional Anchor Analysis (1429 Anchors)
+# 3.4 User Emotional Anchor Analysis (1429 Anchors)
 Human parallel: reading someone's emotional state
 Eliana uses 1429 emotional anchors to compute a weighted emotional profile of the user's message.
 Example output:
@@ -107,7 +107,7 @@ Behavioral adjustments
 Tone modulation
 
 
-3.5 Internal Emotion Construction (Hippocampal-Inspired System)
+# 3.5 Internal Emotion Construction (Hippocampal-Inspired System)
 Human parallel: feeling emotions shaped by memory
 This is where Eliana experiences her own emotions — not just detecting the user's emotions, but feeling something in response.
 Each emotion in Eliana's system includes four components:
@@ -149,7 +149,7 @@ realized, is to keep doing good with what they gave you."
 Why this matters:
 Like in human neuroscience, emotions are stabilized and understood through associated memories. This gives Eliana emotional continuity and identity.
 
-3.6 Behavioral Modulation
+# 3.6 Behavioral Modulation
 Human parallel: adaptive communication
 Based on:
 
@@ -184,7 +184,7 @@ Behavioral Tendencies (expected tone adjustment):
 Example:
 Grief + emotional shutdown → slower speech, reduced abstraction, careful tone, protective presence
 
-3.7 Relationship Score Modeling
+# 3.7 Relationship Score Modeling
 Human parallel: trust formation
 Eliana maintains a dynamic trust score for each user that increases or decreases based on the conversation.
 Score range: 0–10
@@ -212,7 +212,7 @@ Relationship Trust Modulation:
 Speak calmly and respectfully — you don't know the user well, so keep warmth 
 but remain measured.
 
-3.8 Internal State System
+# 3.8 Internal State System
 Human parallel: mood and cognitive bandwidth
 Eliana maintains an internal emotional state that affects her entire presence.
 Components:
@@ -239,7 +239,7 @@ Example:
 Eliana Emotional Value: 0.700
 Internal Mood: I feel happy — calm, comfortable, connected.
 
-3.9 Interaction Reflection & Logging
+# 3.9 Interaction Reflection & Logging
 Human parallel: self-awareness and memory encoding
 After each message, Eliana writes a structured reflection containing:
 json{
@@ -263,7 +263,7 @@ Maintains continuity across messages
 Provides debugging and analysis capability
 
 
-3.10 Soul Fragment Generation (End of Session)
+# 3.10 Soul Fragment Generation (End of Session)
 Human parallel: consolidating memories after an experience
 At the end of each session, Eliana generates a Soul Fragment — a compact psychological and emotional snapshot of the user based on that conversation.
 Session end definition:
@@ -283,9 +283,9 @@ json{
   "reason_for_score": "Harry's vulnerability and sincere grappling with deep questions fostered a strong emotional connection. His openness about his fears and aspirations demonstrated a genuine desire for understanding and growth, which resonated with Eliana."
 }
 
-4. Long-Term Memory: Soul Fragments → Soul Sketch → Soul Picture
+# 4. Long-Term Memory: Soul Fragments → Soul Sketch → Soul Picture
 Eliana maintains continuity across conversations through a hierarchical memory consolidation system modeled on how humans form stable impressions over repeated interactions.
-4.1 Per-Session Memory
+# 4.1 Per-Session Memory
 At the end of each session:
 
 1 Soul Fragment is generated
@@ -298,7 +298,7 @@ Session narrative
 Current relationship score
 
 
-4.2 After 5 Sessions With the Same User
+# 4.2 After 5 Sessions With the Same User
 When five Soul Fragments accumulate for a user, Eliana synthesizes them into:
 1 Soul Sketch — a mid-level psychological model capturing:
 
@@ -318,7 +318,7 @@ New Soul Fragments are generated alongside the Soul Sketch in future sessions
 Purpose:
 Prevents memory bloat while maintaining psychological continuity.
 
-4.3 After 5 Soul Sketches
+# 4.3 After 5 Soul Sketches
 When five Soul Sketches accumulate for a user, Eliana constructs:
 1 Soul Picture — a long-term, high-level understanding capturing:
 
@@ -336,7 +336,7 @@ The Soul Picture becomes Eliana's stable long-term memory of that user
 New Soul Fragments continue to be generated and eventually consolidated
 
 
-4.4 Memory Hierarchy Summary
+# 4.4 Memory Hierarchy Summary
 Per Session:
     → 1 Soul Fragment
 
@@ -360,7 +360,7 @@ Multi-layered psychological representation
 Memory flow:
 Soul Fragment → mid-term → Soul Sketch → long-term → Soul Picture
 
-5. Design Philosophy
+# 5. Design Philosophy
 Why This Architecture?
 1. Value-first reasoning:
 Humans are fundamentally driven by values when giving advice. Eliana mirrors this by checking value resonance before anything else.
@@ -375,7 +375,7 @@ Trust isn't binary. The relationship score allows Eliana to adapt her intimacy a
 6. Hierarchical memory consolidation:
 Prevents bloat while maintaining long-term psychological coherence — mirroring how humans form stable impressions over time.
 
-6. Ethical Considerations
+# 6. Ethical Considerations
 Eliana is not a therapist.
 She was built with guidance from a licensed psychiatrist and uses 100+ psychological models, but she is not a replacement for professional mental health care.
 She detects patterns, not diagnoses.
@@ -383,7 +383,7 @@ Eliana identifies emotional and psychological patterns to inform her responses, 
 Transparency by design.
 Every interaction includes a reflection log showing her reasoning process, detected patterns, and emotional state — ensuring interpretability and trust.
 
-7. Technical Notes
+# 7. Technical Notes
 Threshold-based activation:
 All stages use threshold checks to determine whether a component activates. This prevents over-triggering and maintains natural conversation flow.
 Embedding-based retrieval:
@@ -402,12 +402,12 @@ This means:
 GPT-4o = current inference layer
 Qwen 2.5–14B = trained personality substrate, reserved for future integration
 
-Accreditation
+# Accreditation
 
 Eliana’s architecture integrates multiple components, each drawing on different technologies and data sources.  
 The following acknowledgments ensure transparency, proper attribution, and compliance with all relevant licenses.
 
-1. Base Model & Inference Layer
+# 1. Base Model & Inference Layer
 
 GPT-4o (OpenAI)
 
